@@ -1,0 +1,14 @@
+image: vitalelement/avalonci:latest
+before_script:
+    # Create symlinks for nuget.
+  - mkdir -p /cache/.nuget
+  - ln -s /cache/.nuget ~/.nuget
+  - apt-get update
+  - apt-get -y install p7zip-full
+
+AvalonStudio:
+  script:     
+  # update all submodules.
+  - git submodule sync --recursive
+  - git submodule update --init --recursive
+  - ./build.sh

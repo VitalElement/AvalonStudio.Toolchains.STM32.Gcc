@@ -1,0 +1,14 @@
+{
+  "Id": "AvalonStudio.Toolchains.STM32.Gcc",
+  "Version": {
+    "Major": 0,
+    "Minor": 0,
+    "Build": 1,
+  },
+  "CC": "content/bin/arm-none-eabi-gcc?Package=AvalonStudio.Toolchains.Clang&Version=5.0.1-build58-alpha",
+  "Cpp": "content/bin/arm-none-eabi-g++?Package=AvalonStudio.Toolchains.Clang&Version=5.0.1-build58-alpha",
+  "AR": "content/bin/arm-none-eabi-ar?Package=AvalonStudio.Toolchains.Clang&Version=5.0.1-build58-alpha",
+  "LD": "content/bin/arm-none-eabi-gcc?Package=AvalonStudio.Toolchains.Clang&Version=5.0.1-build58-alpha",
+  "Size": "content/bin/arm-none-eabi-size?Package=AvalonStudio.Toolchains.Clang&Version=5.0.1-build58-alpha",
+  "Gdb": "content/bin/arm-none-eabi-gdb?Package=AvalonStudio.Toolchains.Clang&Version=5.0.1-build58-alpha"
+}
